@@ -8,5 +8,5 @@ echo '
 <template>
 </template>
 ' > $name.vue
-echo 'export * from "./$name"' > index.ts
+echo 'export * from "./'$name'"' > index.ts
 echo "Created folder $name with corresponding files"
